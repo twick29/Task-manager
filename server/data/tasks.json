@@ -1,0 +1,35 @@
+[
+  {
+    "id": "2",
+    "title": "Build Task Manager",
+    "description": "Studio Graphene Assignment",
+    "completed": true
+  },
+  {
+    "id": "1c4f2453-244d-48d6-a6c3-b302e354be5b",
+    "title": "Test Task",
+    "description": "Checking system",
+    "completed": false
+  },
+  {
+    "id": "1f1c08ce-455c-4a8f-a1f1-d2305e4a0d56",
+    "title": "gym ",
+    "description": "want to do chest workout ",
+    "completed": false
+  },
+  {
+    "id": "b1722dcc-35ca-4275-8890-35b6cb2cbb94",
+    "title": "work",
+    "description": "want to make assisment ",
+    "completed": false
+  },
+    {
+    "id": "a1b2-c3d4",
+    "title": "My first task",
+    "description": "This is a description",
+    "dueDate": "2024-12-31",
+    "completed": false,
+    "createdAt": "2024-01-01T10:00:00.000Z",
+    "order": 0
+  }
+]
