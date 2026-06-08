@@ -26,11 +26,7 @@ if (!fs.existsSync(tasksFile)) {
 // Allow frontend (port 5173) to talk to backend (port 5000)
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "http://localhost:3000",
-      process.env.FRONTEND_URL,
-    ].filter(Boolean),
+    origin: "*",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     allowedHeaders: ["Content-Type"],
   })
